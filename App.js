@@ -38,22 +38,7 @@ class App extends Component {
   actionTextBlur() {}
 
   render() {
-    var arrayforFlatList = [
-      { key: 0, city: "Lahore", country: "Pakistan" },
-      { key: 1, city: "Karachi", country: "Pakistan" },
-      { key: 2, city: "Islamabad", country: "Pakistan" },
-      { key: 3, city: "Faisalabad", country: "Pakistan" },
-      { key: 4, city: "Multan", country: "Pakistan" },
-      { key: 0, city: "Lahore", country: "Pakistan" },
-      { key: 1, city: "Karachi", country: "Pakistan" },
-      { key: 2, city: "Islamabad", country: "Pakistan" },
-      { key: 3, city: "Faisalabad", country: "Pakistan" },
-      { key: 4, city: "Multan", country: "Pakistan" },
-      { key: 5, city: "Peshawar", country: "Pakistan" },
-      { key: 6, city: "Rahim yar khan", country: "Pakistan" },
-      { key: 7, city: "Bahawalpur", country: "Pakistan" },
-    ];
-
+    
     return (
       <View
         style={{
